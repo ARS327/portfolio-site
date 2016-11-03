@@ -11,6 +11,8 @@ body {
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
+    text-decoration:none;
+
 }
 
 a:link {
