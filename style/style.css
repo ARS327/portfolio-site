@@ -18,7 +18,7 @@ body {
 .ticker-text {
     z-index:11;
     position: absolute;
-    top: 20%;
+    top: 30%;
     color: #fafafa;
     white-space:nowrap;
     display:inline-block;
@@ -38,19 +38,23 @@ canvas {
 
 a:link {
     color: #ffffff;
+    text-decoration: none;
 }
 
 /* visited link */
 a:visited {
     color: #ffffff;
+    text-decoration: none;
 }
 
 /* mouse over link */
 a:hover {
     color: #ffffff;
+    text-decoration: none;
 }
 
 /* selected link */
 a:active {
     color: #ffffff;
+    text-decoration: none;
 }

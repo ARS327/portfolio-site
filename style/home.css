@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css?family=Fjalla+One');
+
+body {
+    color: #ffffff;
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 75;
+    font-style: italic;
+    height: 100%;
+    background-color: rgb(17,15,18);
+    background-image: url(../background.gif);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+a:link {
+    color: #ffffff;
+}
+
+/* visited link */
+a:visited {
+    color: #ffffff;
+}
+
+/* mouse over link */
+a:hover {
+    color: #ffffff;
+}
+
+/* selected link */
+a:active {
+    color: #ffffff;
+}
