@@ -36,6 +36,10 @@ canvas {
     left: 0;
 }
 
+h3:hover {
+    color: #bc260f;
+}
+
 a:link {
     color: #ffffff;
     text-decoration: none;
@@ -49,7 +53,8 @@ a:visited {
 
 /* mouse over link */
 a:hover {
-    color: #ffffff;
+    color: #bc260f;
+    font-size: 100;
     text-decoration: none;
 }
 
