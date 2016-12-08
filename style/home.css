@@ -127,7 +127,7 @@ h3 {
     padding: 75 80 5 5;
 }
 
-.footer-gif {
+/*.footer-gif {
     height: 1000;
     background-color: rgb(225, 5, 18);
     background-image: url(../images/background3.gif);
@@ -135,9 +135,9 @@ h3 {
     background-repeat: no-repeat;
     background-size: cover;
     color: #fff;
-}
+}*/
 .footer {
-    height: 80;
+   /* height: 80;*/
     padding: 30 0;
     background-color: rgb(17,15,18);
     color: #fff;    
@@ -155,6 +155,18 @@ h3 {
 
 #content {
     margin: 10% 20% 20%;
+}
+
+.item figure {
+	background: #000000;
+}
+.item figure img {
+	opacity: 1;
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+.item figure:hover img {
+	opacity: .3;
 }
 
 a:link {
