@@ -33,7 +33,15 @@
 </div>
 
 <div id="web">
-    <div class="row">
+    <div id="owl-demo" class="owl-carousel owl-theme">
+ 
+  <div class="item"><img src="images/bethany.png" alt="Bethany"></div>
+  <div class="item"><img src="images/moodwave.png" alt="Moodwave"></div>
+  <div class="item"><img src="images/aether.png" alt="Aether"></div>
+ 
+</div>
+
+    <!--<div class="row">
         <div class="projects"><a href="https://jeanvargas.github.io/website-bethany-new/" target="_blank"><img src="images/bethany.png" width=400></a></div>
         <div class="projects"><a href="http://jeanvargas.github.io/MoodWave/mw/index.html
             " target="_blank"><img src="images/moodwave.png" width=400></a></div>
@@ -44,7 +52,7 @@
        <div class="projects"><a href="https://jeanvargas.github.io/JVargas-Interactive/
            " target="_blank"><img src="images/sound.png" width=400></a></div>
         <div class="projects"><a href="https://jeanvargas.github.io/ARS327/selfie/" target="_blank"><img src="images/selfie.png" width=400></a></div>
-    </div>
+    </div>-->
 </div>
 
         
@@ -63,10 +71,26 @@
 <!-- jquery & iScroll -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/iScroll/5.1.3/iscroll.min.js"></script>
+<script src="js/owl.carousel.min.js"></script>
 <!-- drawer.js -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.2.1/js/drawer.min.js"></script>
  <script>
     $(document).ready(function() {
       $('.drawer').drawer();
+         $("#owl-demo").owlCarousel({
+ 
+      navigation : true, // Show next and prev buttons
+      slideSpeed : 300,
+      paginationSpeed : 400,
+      singleItem:true
+ 
+      // "singleItem:true" is a shortcut for:
+      // items : 1, 
+      // itemsDesktop : false,
+      // itemsDesktopSmall : false,
+      // itemsTablet: false,
+      // itemsMobile : false
+ 
+  });
     });
   </script>
