@@ -58,6 +58,13 @@ body {
     background-color: rgb(17,15,18);
     
 }
+
+#owl-demo .item img{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
 .sections {
     font-size:60px;
     text-transform: uppercase;
