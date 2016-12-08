@@ -67,7 +67,8 @@ drawer-brand {
 
 .drawer--top .drawer-nav {
     top:-100%;
-    left:0;width:100%;
+    left:0;
+    width:100%;
     height:auto;
     max-height:100%;
     -webkit-transition:top .6s cubic-bezier(.19,1,.22,1);
@@ -82,7 +83,7 @@ drawer-brand {
     right:0
 }
 
-.drawer--left .drawer-nav {
+/*.drawer--left .drawer-nav {
     left:-16.25rem;
     -webkit-transition:left .6s cubic-bezier(.19,1,.22,1);
     transition:left .6s cubic-bezier(.19,1,.22,1)
@@ -94,7 +95,7 @@ drawer-brand {
 
 .drawer--left.drawer-open .drawer-hamburger {
     left:16.25rem
-}
+}*/
 
 .drawer--right .drawer-nav {
     right:-30em;
@@ -106,8 +107,9 @@ drawer-brand {
     right:0
 }
 
+/*This section manipulated the transition of the menu button. I commented it out because I didn't want the X to move across the screen*/
 .drawer--right.drawer-open .drawer-hamburger {
-    right:30rem
+  /*  right:30rem*/
 }
 
 .drawer-hamburger {
